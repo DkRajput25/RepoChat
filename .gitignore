@@ -1,0 +1,82 @@
+backend/src/main/resources/application.properties
+# ==============================
+# Frontend - React / Vite
+# ==============================
+
+client/node_modules/
+client/dist/
+
+# Frontend environment files
+client/.env
+client/.env.*
+!client/.env.example
+
+
+# ==============================
+# Backend - Spring Boot / Maven
+# ==============================
+
+backend/target/
+
+# IntelliJ IDEA
+backend/.idea/
+backend/*.iml
+
+# VS Code
+backend/.vscode/
+
+# Eclipse
+backend/.classpath
+backend/.project
+backend/.settings/
+
+
+# ==============================
+# Environment / Secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+
+# ==============================
+# IDE
+# ==============================
+
+.idea/
+.vscode/
+
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+
+
+# ==============================
+# OS
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+
+# ==============================
+# Java
+# ==============================
+
+*.class
+
+
+# ==============================
+# Temporary
+# ==============================
+
+*.tmp
+*.temp
