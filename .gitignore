@@ -1,4 +1,3 @@
-backend/src/main/resources/application.properties
 # ==============================
 # Frontend - React / Vite
 # ==============================
@@ -42,6 +41,9 @@ backend/.settings/
 backend/.env
 backend/.env.*
 !backend/.env.example
+
+# Local Spring Boot development configuration
+backend/src/main/resources/application-dev.properties
 
 
 # ==============================
